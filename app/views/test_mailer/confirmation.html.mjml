@@ -1,0 +1,42 @@
+<mjml owa="desktop">
+  <mj-head>
+    <mj-title>Rails / MJML test</mj-title>
+    <mj-breakpoint width="550px" />
+  </mj-head>
+  <mj-body width="100%">
+
+    <mj-section>
+      <mj-column width="480px">
+        <mj-image src="https://upload.wikimedia.org/wikipedia/commons/1/16/Ruby_on_Rails-logo.png" alt="Rails" width="150px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column width="550px" padding="0 15px">
+        <mj-wrapper border="1px solid #962837">
+          <mj-wrapper padding="20px 25px 5px 25px">
+            <mj-text align="left">
+              Test Name —
+            </mj-text>
+          </mj-wrapper>
+
+          <mj-wrapper padding="10px 25px">
+            <mj-text align="left">
+              Your message has been successfully received and will be responded
+              to as quickly as possible.
+            </mj-text>
+          </mj-wrapper>
+
+          <mj-wrapper padding="5px 25px 20px 25px">
+            <mj-text align="left">
+              Regards,<br>
+              <em>Test Company</em>
+            </mj-text>
+          </mj-wrapper>
+
+        </mj-wrapper>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
