@@ -1,24 +1,15 @@
-# README
+# Rails-MJML test
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Email should look like this (using 4.1.0):
 
-Things you may want to cover:
+![Test Email](test_email.png)
 
-* Ruby version
+Launch Rails server:
 
-* System dependencies
+```
+rails s
+```
 
-* Configuration
+Visit email preview:
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[http://0.0.0.0:3000/rails/mailers/test_mailer/confirmation](http://0.0.0.0:3000/rails/mailers/test_mailer/confirmation)
