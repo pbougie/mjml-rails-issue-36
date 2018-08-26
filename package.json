@@ -1,5 +1,7 @@
 {
   "name": "mjml-rails-test",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "mjml": "^4.1.2"
+  }
 }
